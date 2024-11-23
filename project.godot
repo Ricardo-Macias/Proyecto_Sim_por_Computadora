@@ -43,6 +43,10 @@ jump={
 ]
 }
 
+[physics]
+
+3d/physics_engine="JoltPhysics3D"
+
 [rendering]
 
 occlusion_culling/bvh_build_quality=1
