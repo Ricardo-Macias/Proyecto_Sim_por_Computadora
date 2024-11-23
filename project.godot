@@ -45,5 +45,8 @@ jump={
 
 [rendering]
 
+occlusion_culling/bvh_build_quality=1
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+occlusion_culling/occlusion_rays_per_thread=256
+occlusion_culling/use_occlusion_culling=true
