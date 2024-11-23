@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 @onready var HEAD = $Camera3D
-@onready var JUMP_BTN = $"../JumpBtn"
+@onready var JUMP_BTN = $"../JumpBTN"
 
 const SENSITIVITY = 0.10
 const SPEED = 10
