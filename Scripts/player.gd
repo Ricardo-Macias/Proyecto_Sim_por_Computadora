@@ -1,5 +1,5 @@
 extends CharacterBody3D
-
+'''
 @onready var HEAD = $Camera3D
 @onready var JUMP_BTN = $"../JumpBTN"
 
@@ -46,7 +46,7 @@ func _physics_process(delta):
 @export var speed = 14
 @export var fall_acceleration = 75
 
-@export var jump_impulse = 20
+@export var jump_impulse = 22
 
 var target_velocity = Vector3.ZERO
 
@@ -88,4 +88,3 @@ func _physics_process(delta):
 	
 	velocity = target_velocity
 	move_and_slide()
-'''
